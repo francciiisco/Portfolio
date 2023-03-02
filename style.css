@@ -1,0 +1,193 @@
+
+/*THE * APPLIES STYLES TO ALL ELEMENTS*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*///////////////////////*/
+/*NAVBAR*/
+/*///////////////////////*/
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(20, 41, 73, 0.7);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: century;
+    font-size: 1rem;  
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+}
+
+
+/*///////////////////////*/
+/*HOME SECTION*/
+/*///////////////////////*/
+
+#home {
+    display: flex;
+    background-color: rgba(21, 34, 86, 0.9);
+    height: 860px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+}
+
+
+
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px ;
+}
+
+/*///////////////////////*/
+/*BIO SECTION MODAL BUTTON*/
+/*///////////////////////*/
+
+
+#modal {
+    background-color: rgba(20, 41, 73, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    display: none;
+}
+
+#modal-textbox{
+    background-color: silver;
+    height: 400px;
+    width: 550px;
+    color: black;
+    margin: 150px auto;
+}
+
+#openBio {
+    padding: 10px 35px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+#close {
+    color: rgba(21, 34, 86, 1);
+    font-size: 20px;
+}
+
+
+
+/*///////////////////////*/
+/*PROJECTS SECTION*/
+/*///////////////////////*/
+
+#projects {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(21, 34, 86, 0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.projectsList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.projectsList img {
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+
+/*///////////////////////*/
+/*RESUME PAGE*/
+/*///////////////////////*/
+
+#resume {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(21, 34, 86, 0.9);
+    color: white;
+    padding: 20px;
+}
+
+.resumeImg{
+    display: flex;
+    justify-content: center;
+
+}
+
+.resumeImg img {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+}
+
+/*///////////////////////*/
+/* FOOTER */
+/*///////////////////////*/
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 41, 73, 0.7);
+    position: sticky;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.links ul li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;  
+    font-weight: bold;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+}
+
+
