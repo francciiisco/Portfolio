@@ -19,8 +19,9 @@
 }
 
 #pic img {
-    width: 300px;
+    width: 200px;
     height: 175px;
+    margin: auto;
 }
 #intro h2{
     text-align: center;
@@ -42,12 +43,6 @@
 
 /* CONTACT */
 
-.input {
-    width: 80%;
-}
-#msg{
-    width: 70%;
-}
-#send{
-    width: 20%;
+.clogo{
+    height: 100px;
 }
